@@ -54,8 +54,12 @@ font-family: 'Noto Sans', sans-serif;
 padding: 20px;
 text-align: start;
 }
-li , em,h3,h7{
+li , em,h7{
     font-family: 'Bodoni Moda', serif;
+}
+h3{
+    font-family: 'Italia';
+    line-height: 10px;
 }
 h4{
     font-family: 'DM Serif Display', serif;
@@ -66,6 +70,10 @@ h7{
     font-size: 15px;
     text-align: start;
 }
+.fs-3{
+    line-height: 50px;
+}
+
 /* headings */
 #projects, #about, #contact{
     font-size: 50px;
