@@ -58,14 +58,16 @@ li , em,h7{
     font-family: 'Bodoni Moda', serif;
 }
 h3{
-    font-family: 'Italia';
+    font-family:  'DM Serif Display', serif;
     line-height: 10px;
 }
 h4{
     font-family: 'DM Serif Display', serif;
       font-size: 200px;
 }
-
+h2{
+    font-family: 'Bodoni Moda', serif;
+}
 h7{
     font-size: 15px;
     text-align: start;
