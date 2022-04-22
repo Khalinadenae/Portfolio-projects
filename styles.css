@@ -1,0 +1,129 @@
+
+/* containers */
+.container-about-me{
+    width: 60%;
+    background-color: #a8441234;
+    height: 500px;
+}
+.container-contact{
+    height: 400px;
+    width: 400px;
+    background-color: #96351F;
+    padding: 100px;
+    margin: 30px;
+}
+.about-container{
+    background-color: #a8441288;
+    width: 100%;
+}
+
+/* hero section */
+
+#hero-image{
+ background-color: #c5856425;
+   font-family: 'DM Serif Display', serif;
+   background-image: url(src/TWO\ MAGNOLIAS.jfif);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#hero-text{
+    background-color: bisque;
+      font-family: 'DM Serif Display', serif;
+}
+img{
+    width: 70%;
+}
+
+/* link styling */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    color:black
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: beige;
+}
+
+/* typography */
+
+h1{
+padding-top: 100px;
+
+}
+
+p, h5, figcaption{
+font-family: 'Noto Sans', sans-serif;
+padding: 20px;
+text-align: start;
+}
+/* about me section card */
+.card-text{
+    font-size: 20px;
+    font-family:'Noto Sans', sans-serif;
+    margin-left:120px;
+}
+li , em,h3,h7{
+    font-family: 'Bodoni Moda', serif;
+}
+
+h4, .card-title{
+    font-family: 'DM Serif Display', serif;
+}
+h7{
+    font-size: 15px;
+    text-align: start;
+}
+
+
+/* button */
+.btn-grad {background-image: linear-gradient(to right, #E57373 0%, #96351F  51%, #D32F2F 100%)}
+ .btn-grad {
+margin: 50px;
+padding: 15px 30px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: black;         
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: inline;
+border: transparent;
+}
+
+.btn-grad:hover {
+background-position: right center;
+color: rgba(171, 143, 143, 0.769);
+text-decoration: none;
+}
+
+/* cards */
+.card-body, .card{
+    border:transparent;
+    background-color: transparent;
+    margin: 20px;
+}
+
+div .card{
+    border: transparent;
+    background-color:  #b7704c33;
+    margin-bottom: 30px;
+    border: #D32F2F;
+    border-radius: 3rem;
+  box-shadow: rgba(219, 116, 72, 0.4) -5px 5px, rgba(240, 69, 46, 0.3) -10px 10px, rgba(214, 134, 15, 0.2) -15px 15px, rgba(216, 59, 28, 0.1) -20px 20px, rgba(176, 22, 43, 0.05) -25px 25px;
+}
+
+/* contact page */ 
+form{
+    margin: 50px;
+    padding: 20px;
+}
+
+ .contact{
+    background-color: #c0746360;
+}
