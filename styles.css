@@ -1,33 +1,24 @@
-
-/* containers */
-.container-about-me{
-    width: 60%;
-    background-color: #a8441234;
-    height: 500px;
+:root {
+  --main-bg-color: #5a330682; 
+   --accent-color1: #eee8d7;
+   --acccent-color2:#220323cf;
+   --heading-font-family:'Italiana', serif;
 }
-.container-contact{
-    height: 400px;
-    width: 400px;
-    background-color: #96351F;
-    padding: 100px;
-    margin: 30px;
-}
-.about-container{
-    background-color: #a8441288;
-    width: 100%;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 /* hero section */
-
 #hero-image{
- background-color: #c5856425;
+
    font-family: 'DM Serif Display', serif;
    background-image: url(src/TWO\ MAGNOLIAS.jfif);
    background-size: cover;
    background-repeat: no-repeat;
 }
 #hero-text{
-    background-color: bisque;
+    background-color: #eee8d7;
       font-family: 'DM Serif Display', serif;
 }
 img{
@@ -52,38 +43,44 @@ a:hover{
 /* typography */
 
 h1{
-padding-top: 100px;
+padding-top: 150px;
+font-family: 'Italiana', serif;
+font-size: 100px!important;
+ color: var(--acccent-color2);
 
 }
-
 p, h5, figcaption{
 font-family: 'Noto Sans', sans-serif;
 padding: 20px;
 text-align: start;
 }
-/* about me section card */
-.card-text{
-    font-size: 20px;
-    font-family:'Noto Sans', sans-serif;
-    margin-left:120px;
-}
 li , em,h3,h7{
     font-family: 'Bodoni Moda', serif;
 }
-
-h4, .card-title{
+h4{
     font-family: 'DM Serif Display', serif;
+      font-size: 200px;
 }
+
 h7{
     font-size: 15px;
     text-align: start;
 }
+/* headings */
+#projects, #about, #contact{
+    font-size: 50px;
+width:100%;
+    font-family: 'Italiana', serif;
+    padding: 0;
+   
+}
+
 
 
 /* button */
-.btn-grad {background-image: linear-gradient(to right, #E57373 0%, #96351F  51%, #D32F2F 100%)}
+.btn-grad {background-image: linear-gradient(to right, #46113631 0%, #350538  51%, #320540 100%)}
  .btn-grad {
-margin: 50px;
+margin: 10px;
 padding: 15px 30px;
 text-align: center;
 text-transform: uppercase;
@@ -94,6 +91,7 @@ box-shadow: 0 0 20px #eee;
 border-radius: 10px;
 display: inline;
 border: transparent;
+font-family: 'Italiana', serif;
 }
 
 .btn-grad:hover {
@@ -102,28 +100,24 @@ color: rgba(171, 143, 143, 0.769);
 text-decoration: none;
 }
 
-/* cards */
-.card-body, .card{
-    border:transparent;
-    background-color: transparent;
-    margin: 20px;
-}
-
-div .card{
-    border: transparent;
-    background-color:  #b7704c33;
-    margin-bottom: 30px;
-    border: #D32F2F;
-    border-radius: 3rem;
-  box-shadow: rgba(219, 116, 72, 0.4) -5px 5px, rgba(240, 69, 46, 0.3) -10px 10px, rgba(214, 134, 15, 0.2) -15px 15px, rgba(216, 59, 28, 0.1) -20px 20px, rgba(176, 22, 43, 0.05) -25px 25px;
-}
-
-/* contact page */ 
 form{
-    margin: 50px;
     padding: 20px;
+    text-align: start;
 }
 
- .contact{
-    background-color: #c0746360;
+div .container{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding:0px;
+    margin: 0px;
+}
+.fa-brands,li{
+    color:#320540;
+}
+
+/* background color */
+ #about-container{
+ background-image: url(src/AdobeColorGradient\ gradient_TWO\ MAGNOLIAS\ \(1\).png);
 }

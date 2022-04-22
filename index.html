@@ -9,6 +9,9 @@
 <!-- icons-->
 <script src="https://kit.fontawesome.com/25ba9e0f79.js" crossorigin="anonymous"></script>
 <!-- google font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&family=Cormorant+Garamond&family=DM+Serif+Display&family=Italiana&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&family=DM+Serif+Display&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
@@ -19,7 +22,7 @@
 </head>
 <body>
   <!-- nav-->
- <nav class="navbar  navbar-expand-lg  navbar-light" style="background-color: #a8441288;">
+ <nav class="navbar  navbar-expand-lg  navbar-light" style="background-color:#CFAFA2;">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,7 +36,7 @@
           <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html" target="_blank"> Contact</a>
+          <a class="nav-link" href="#contact"> Contact</a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -46,13 +49,12 @@
 </nav>
 
 <!--hero-section-->
-<center>
+
 <div class="container-fluid ">
   <div class="row">
-    <div class="col" id="hero-text">
+    <div class="col" >
      <h1>Khalina Boyce </h1>
-  <h2> Front End Web Developer</h2>
-  <h3>Based in Woodbridge, Virginia</h3>
+  <h3> Web Developer <br> Based in Woodbridge, Virginia </h3>
 <br>
     <a href="#projects"><button class="btn-grad"> View my work </button></a>
     </div>
@@ -61,62 +63,79 @@
  </div>
   </div>
   </div>
-</center>
-
-<!-- About -->
-<div class="about-container">
-   <center><h4 id="about" class="card-title">  ABOUT ME  </h4> </center>
-  <div class="row">
-    <div class="col-6">  
-       <h2 class="mt-5 card-text"> Hi, there! <em> <br> I'm Khalina </em></h2> 
-        <p class="card-text">
-  
-          I wrote my first line of code 
-          in Decemeber of 2020 after contemplating a career change from social work. I followed my curiosity of web development 
-          and committed 2022 to learning the skils needed for front end development and transition in tech! I am proffieicnt in HTML, 
-          CSS and Javascript, but my skillset is always expanding. <br>
-        I am design-oriented and I thrive on new challanges and deepening my understanding of web developement. </p>
-      </div> 
-    <div class="col-6">  <img src="src/C50DD387-D75B-410B-B343-CABB5B0F5F68.png" class="img-fluid rounded-start" alt="..."></div>
-  </div>
-  </div>
 
 <!-- Projects -->
-<center>
-  <div class="container">
-    <h4 id="projects" class="mt-5">  PROJECTS  </h4>
-  <div class="row">
+  <div class="container-fluid">
+  <div class="row justify-content-center" id="project-container">
+      <h6 id="projects">  PROJECTS  </h6>
+    <div class="col-6">
+           <h4 class="mt-5">Ebb and Flow Yoga Studio</h4>
+ <figcaption>My first website created from scratch without the help of tutuorials. A responsive, multipage design created for a faux yoga studio. Created using HTML, CSS and Bootstrap. Hosted using Netlify .</figcaption> 
+     <br>        <a href="https://ebbandflow.netlify.app/" target="_blank" class="btn-grad">Live Site</a>
+</div>
+    <div class="col-4">    
 
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Ebb and Flow Yoga Studio</h5>
-         <img src="src/Yogastudio.png" class="card-img-top" alt="...">
-       <figcaption>My first website created from scratch without the help of tutuorials. A responsive, multipage design created for a faux yoga studio. Created using HTML, CSS and Bootstrap. Hosted using Netlify .</figcaption> 
-     <br>
-        <a href="https://ebbandflow.netlify.app/" target="_blank" class="btn-grad">Live Site</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"> Vanilla Javascript Weather app </h5>
-           <img src="src/weather.png" class="card-img-top" alt="...">
-      <figcaption> Learning project for javascript. Weather forecast application was cretaed using HTML, CSS and vanilla Javascript. Open weather API integrated for live weather updates. </figcaption> <br>
+         <img src="src/Yogastudio.png" class="card-img-top mt-5" alt="...">
+            </div>
+    <div class="col-6 mt-4">  
+         <h4> Vanilla Javascript Weather app </h4>
+       <figcaption> Learning project for javascript. Weather forecast application was cretaed using HTML, CSS and vanilla Javascript. Open weather API integrated for live weather updates. </figcaption> <br>
      <br>
         <a href="https://clever-pare-512b0f.netlify.app/" target="_blank"class="btn-grad"> Live Site </a>
       </div>
+    <div class="col-4">       
+
+           <img src="src/weather.png" class="card-img-top mt-5" alt="...">
+  </div>
+  </div>
+  </div>
+
+<!-- about me section -->
+
+<div class="container-fluid" id="about-container">
+  <div class="row">
+      <h4 id="about">  ABOUT ME  </h4>
+          <div class="col-4">
+    <img src="src/C50DD387-D75B-410B-B343-CABB5B0F5F68.png" alt="">
+    </div>
+    <div class="col-4">
+    <p> I wrote my first line of code 
+          in Decemeber of 2020 after contemplating a career change from social work. I followed my curiosity of web development 
+          and committed 2022 to learning the skils needed for front end development and transition in tech!
+       I thrive on new challanges and deepening my understanding of web developementut my skillset is always expanding. <br> When I am not coding I like doing yoga and/or meditation to relax my mind, exercise or go out in nature. 
+    . </p>
+    </div>
+    <div class="col-4">
+      <h4>Skills </h4>
+      <img src="src/Screenshot 2022-03-29 125422.jpg" alt="">
     </div>
   </div>
 </div>
-</div>
 
-<!--footer-->
-
-<nav class="navbar bottom navbar-light " style="background-color: #a8441288;">
-  <div class="container-fluid">
+    <!-- contact form -->
+      
+    <div class="col-12"> 
+  <div class="container-fluid" id="contact-container">
+    <h4 id="contact">Get In Touch </h4>
+<form>
+    <div class="mb-3">
+    <label for="InputName" class="form-label">Name</label>
+    <input type="text" class="form-control" id="InputName" aria-describedby="InputName">
+ 
+  </div>
+  <div class="mb-3">
+    <label for="InputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="InputEmail">
+  
+  </div>
+  <div class="mb-3">
+    <label for="InputMessage" class="form-label">Message </label>
+    <input type="text" class="form-control" id="InputMessage">
+  </div>
+ <button type="submit" class="btn-grad m-5">Submit</button>
+    </div>
+  </div>
+  <nav class="navbar bottom navbar-light " style="background-color:#CFAFA2;">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
@@ -129,6 +148,6 @@
     <a class="navbar-brand" href="#"> <h7>Built and designed by Khalina Boyce </h7></a>
   </div>
 </nav>
+  </div>
 
-</body>
 </html>
